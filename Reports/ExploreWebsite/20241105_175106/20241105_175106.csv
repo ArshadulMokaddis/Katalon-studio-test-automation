@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ExploreWebsite,Chrome 130.0.0.0,,,05-11-2024 17:51:15,05-11-2024 17:51:22,7.292s,PASSED
+,,,,,,,
+Test Cases/Navigation,Chrome 130.0.0.0,,,05-11-2024 17:51:20,05-11-2024 17:51:22,1.999s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 130.0.0.0,,,05-11-2024 17:51:20,05-11-2024 17:51:20,0.026s,PASSED
+"verifyMatch(getWindowTitle(), ""CURA Healthcare Service"", false)",Chrome 130.0.0.0,,,05-11-2024 17:51:20,05-11-2024 17:51:20,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/SideHamburgerMenu""))",Chrome 130.0.0.0,,,05-11-2024 17:51:20,05-11-2024 17:51:21,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/LoginButton""))",Chrome 130.0.0.0,,,05-11-2024 17:51:21,05-11-2024 17:51:21,0.720s,PASSED
+"takeScreenshot(""screenshots/screen2.png"")",Chrome 130.0.0.0,,,05-11-2024 17:51:21,05-11-2024 17:51:22,0.525s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 130.0.0.0,,,05-11-2024 17:51:22,05-11-2024 17:51:22,0.008s,PASSED

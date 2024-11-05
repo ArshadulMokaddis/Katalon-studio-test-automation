@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ExploreWebsite" time="7.292" tests="1" failures="0" errors="0">
+   <testsuite name="ExploreWebsite" tests="1" failures="0" errors="0" time="7.292" skipped="0" timestamp="05-11-2024T17:51:15" hostname="Arshadul Mokaddis - DESKTOP-QL564CN" id="Test Suites/ExploreWebsite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Arshadul Mokaddis\\Katalon Studio\\Project_06\\Reports\\20241105_175106\\ExploreWebsite\\20241105_175106"/>
+         <property name="logFiles" value="C:\\Users\\Arshadul Mokaddis\\Katalon Studio\\Project_06\\Reports\\20241105_175106\\ExploreWebsite\\20241105_175106\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Arshadul Mokaddis\\Katalon Studio\\Project_06\\Reports\\20241105_175106\\ExploreWebsite\\20241105_175106\\screenshots/screen2.png"/>
+         <property name="hostName" value="Arshadul Mokaddis - DESKTOP-QL564CN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.7.2.223"/>
+         <property name="browser" value="Chrome 130.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="a0d188a95bc4b64d920fa334acec1c2a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Navigation" time="1.999" classname="Test Cases/Navigation" status="PASSED">
+         <system-out><![CDATA[05-11-2024T17:51:20 - [TEST_CASE][PASSED] - Test Cases/Navigation: Test Cases/Navigation
+
+05-11-2024T17:51:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+05-11-2024T17:51:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+05-11-2024T17:51:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+05-11-2024T17:51:20 - [TEST_STEP][PASSED] - verifyMatch(getWindowTitle(), "CURA Healthcare Service", false): Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched 
+
+05-11-2024T17:51:20 - [MESSAGE][PASSED] - Current window's title is: 'CURA Healthcare Service'
+
+05-11-2024T17:51:20 - [MESSAGE][PASSED] - Actual text 'CURA Healthcare Service' and expected text 'CURA Healthcare Service' are matched 
+
+05-11-2024T17:51:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/SideHamburgerMenu")): Object: 'Object Repository/Page_CURA Healthcare Service/SideHamburgerMenu' is clicked on
+
+05-11-2024T17:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/SideHamburgerMenu' is clicked on
+
+05-11-2024T17:51:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/LoginButton")): Object: 'Object Repository/Page_CURA Healthcare Service/LoginButton' is clicked on
+
+05-11-2024T17:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/LoginButton' is clicked on
+
+05-11-2024T17:51:21 - [TEST_STEP][PASSED] - takeScreenshot("screenshots/screen2.png"): Taking screenshot successfully
+
+05-11-2024T17:51:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Arshadul Mokaddis\\Katalon Studio\\Project_06\\Reports\\20241105_175106\\ExploreWebsite\\20241105_175106\\screenshots/screen2.png]]
+
+05-11-2024T17:51:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+05-11-2024T17:51:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+05-11-2024T17:51:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-11-2024T17:51:15 - [TEST_SUITE][PASSED] - ExploreWebsite: Test Cases/Navigation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
